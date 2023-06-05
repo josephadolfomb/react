@@ -48,7 +48,10 @@ return (
         ))}
       </TodoList>
       
-      <CreateTodoButton /> 
+      <CreateTodoButton
+        setOpenModal={setOpenModal}
+      />
+      
       {openModal && (
         <Modal>
           La funcionalidad de agregar TODO
