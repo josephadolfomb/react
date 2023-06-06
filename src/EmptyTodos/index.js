@@ -2,7 +2,7 @@ import React from 'react';
 
 function EmptyTodos() {
   return (
-    <p>¡Crea tu primer TODO!</p>
+    <p>Sin tareas por el momento. 🥂</p>
   );
 }
 
